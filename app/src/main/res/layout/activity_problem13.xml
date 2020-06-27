@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Write a Java program to input amount from user and print minimum number of notes (Rs. 500, 100, 50, 20, 10, 5, 2, 1) required for the amount. How to the minimum number of notes required for the given amount in C programming. Program to find minimum number of notes required for the given denomination. Logic to find minimum number of denomination for a given amount in C program.
+\n
+Example\n
+Input\n
+Input amount: 575\n\n
+Output\n
+
+Total number of notes:\n
+500: 1\n
+100: 0\n
+50: 1\n
+20: 1\n
+10: 0\n
+5: 1\n
+2: 0\n
+1: 0"
+            />
+
+
+        <EditText
+            android:id="@+id/et_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Input 1st Number"
+            android:inputType="number" />
+
+
+        <TextView
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Result:"
+            android:textColor="@color/colorgreen"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/sum_btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_shape"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+<ScrollView
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+          android:text="Write a Java program to input cost price and selling price of a product and check profit or loss. Also calculate total profit or loss using if else. How to calculate profit or loss on any product using if else in Java programming. Program to calculate profit and loss of any product in Java.
+\n
+Example\n
+Input\n
+Input cost price: 1000\n
+Input selling price: 1500\n\n
+Output\n
+Profit: 500"
+/>
+
+
+        <EditText
+            android:id="@+id/et_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Input 1st Number"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/et_two_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Input 2nd Number"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Result:"
+            android:textColor="@color/colorgreen"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/sum_btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_shape"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+
+</RelativeLayout>

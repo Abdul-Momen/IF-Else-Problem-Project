@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Write a java program to find maximum between two numbers using if else. java program to input two numbers from user and find maximum between two numbers using if else. How to find maximum or minimum between two numbers using if else in java programming.
+\n
+Example :\n
+Input\n
+Input num1: 10\n
+Input num2: 20\n\n
+Output\n
+
+Maximum = 20
+"/>
+
+
+        <EditText
+            android:id="@+id/et_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Input 1st Number"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/et_two_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint="  Input 2nd Number"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Result:"
+            android:textColor="@color/colorgreen"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/sum_btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_shape"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

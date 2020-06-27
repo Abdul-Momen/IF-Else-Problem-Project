@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+android:text="@string/write_a_java_program_to_input_marks_of_five_subjects_physics_chemistry_biology_mathematics_and_computer_calculate_percentage_and_grade_according_to_given_conditions_n_if_percentage_90_grade_a_n_if_percentage_80_grade_b_n_if_percentage_70_grade_c_n_if_percentage_60_grade_d_n_if_percentage_40_grade_e_n_if_percentage_40_grade_f_n_n_example_n_input_n_input_marks_of_five_subjects_n_95_n_95_n_97_n_98_n_90_n_n_output_n_percentage_95_00_n_grade_a"
+                />
+
+
+            <EditText
+                android:id="@+id/et_one_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_border"
+                android:hint="  Input 1st Number"
+                android:inputType="number" />
+
+
+            <EditText
+                android:id="@+id/et_two_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_border"
+                android:hint="  Input 2nd Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/et_three_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_border"
+                android:hint="  Input 3nd Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/et_four_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_border"
+                android:hint="  Input 4th Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/et_five_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_border"
+                android:hint="  Input 5th Number"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/result_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Result:"
+                android:textColor="@color/colorgreen"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/result_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Result:"
+                android:textColor="@color/colorgreen"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/sum_btn_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_shape"
+                android:text="Submit"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="19sp" />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

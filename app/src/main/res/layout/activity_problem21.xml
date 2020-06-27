@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+               android:text="Write a java program to input electricity unit charge and calculate the total electricity bill according to the given condition:
+\nFor first 50 units Rs. 0.50/unit\n
+For next 100 units Rs. 0.75/unit\n
+For next 100 units Rs. 1.20/unit\n
+For unit above 250 Rs. 1.50/unit\n\n
+An additional surcharge of 20% is added to the bill.
+n
+
+How to calculate electricity bill using if else in java programming. Program to find electricity bill using if else in C. Logic to find net electricity bill in java program."
+                />
+
+
+            <EditText
+                android:id="@+id/et_one_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_border"
+                android:hint=" Input Unit"
+                />
+
+
+            <TextView
+                android:id="@+id/result_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Result:"
+                android:textColor="@color/colorgreen"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+
+            <Button
+                android:layout_margin="5dp"
+                android:id="@+id/sum_btn_id"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/btn_shape"
+                android:text="Submit"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="19sp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/write_a_c_program_to_input_basic_salary_of_an_employee_and_calculate_gross_salary_according_to_given_conditions_n_basic_salary_10000_hra_20_da_80_n_basic_salary_is_between_10001_to_20000_hra_25_da_90_n_basic_salary_20001_hra_30_da_95_n_how_to_calculate_gross_salary_of_an_employee_using_if_else_in_c_programming_program_to_calculate_gross_salary_of_an_employee_using_if_else_in_c_program_logic_to_find_gross_salary_of_employee_in_c_program_example_n_input_n_input_basic_salary_of_an_employee_22000_n_n_output_n_gross_salary_44000"
+            />
+
+
+        <EditText
+            android:id="@+id/et_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:hint=" Input basic salary of an employee"
+            />
+
+
+        <TextView
+            android:id="@+id/result_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Result:"
+            android:textColor="@color/colorgreen"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/sum_btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_shape"
+            android:text="Submit"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+</RelativeLayout>
